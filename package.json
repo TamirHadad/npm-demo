@@ -1,0 +1,25 @@
+{
+  "name": "TestGen",
+  "version": "1.0.0",
+  "description": "none",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "author": "",
+    "engines": {
+        "node": ">= 0.4.0"
+	},
+  "license": "MIT",
+  "keywords": [
+    "Gen"
+  ],
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  },
+
+    "bin": {
+        "testgen": "bin/TestGen.bin.js"
+	}
+}
