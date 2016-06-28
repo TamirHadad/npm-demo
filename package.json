@@ -18,7 +18,7 @@
     "chai": "^3.5.0",
     "mocha": "^2.5.3"
   },
-   publishConfig":{
+   "publishConfig":{
   	"registry":"http://localhost:8081/artifactory/api/npm/npm-local"
   },
    "bin": {
