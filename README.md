@@ -10,13 +10,9 @@ go to the project directory and run:
 ### Pipeline script
 ```
 node {
-  stage 'Clone Npm Demo git repo'
   git url: 'https://github.com/TamirHadad/npm-demo.git'
-  stage 'install dependencies'
   sh "npm install"
-  stage "Let's test"
   sh "npm test"
-  stage "Let's Deploy"
   sh "npm publish"
 }
 ```
