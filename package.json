@@ -18,8 +18,10 @@
     "chai": "^3.5.0",
     "mocha": "^2.5.3"
   },
-
-    "bin": {
-        "testgen": "bin/TestGen.bin.js"
-	}
+   publishConfig":{
+  	"registry":"http://localhost:8081/artifactory/api/npm/npm-local"
+  },
+   "bin": {
+   	"testgen": "bin/TestGen.bin.js"
+  }
 }
