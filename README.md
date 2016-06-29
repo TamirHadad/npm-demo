@@ -16,7 +16,7 @@ node {
   def version = "1.${env.BUILD_ID}.0"
   sh "npm version ${version}"
   sh "npm publish"
-  env.BUILD_PROPS = "npm.name=TestGen;npm.version=${version}"
+  env.BUILD_PROPS = "npm.name=warp-coils;npm.version=${version}"
 }
 ```
 
