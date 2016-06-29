@@ -10,7 +10,7 @@ go to the project directory and run:
 ### Pipeline script
 ```
 node {
-  git url: 'https://github.com/TamirHadad/npm-demo.git'
+  git url: 'https://github.com/TamirHadad/warp-coils.git'
   sh "npm install"
   sh "npm test"
   def version = "1.${env.BUILD_ID}.0"
