@@ -13,9 +13,10 @@ node {
   git url: 'https://github.com/TamirHadad/npm-demo.git'
   sh "npm install"
   sh "npm test"
-  def version = "${env.BUILD_ID}.0.0"
+  def version = "1.${env.BUILD_ID}.0"
   sh "npm version ${version}"
   sh "npm publish"
+  env.BUILD_PROPS = "npm.name=TestGen;npm.version=${version}"
 }
 ```
 
