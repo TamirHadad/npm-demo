@@ -1,5 +1,5 @@
 {
-  "name": "TestGen",
+  "name": "warp-coils",
   "version": "1.0.1",
   "description": "none",
   "main": "index.js",
@@ -22,6 +22,6 @@
   	"registry":"http://localhost:8081/artifactory/api/npm/npm-local"
   },
    "bin": {
-   	"testgen": "bin/TestGen.bin.js"
+   	"warp-coils": "bin/TestGen.bin.js"
   }
 }
